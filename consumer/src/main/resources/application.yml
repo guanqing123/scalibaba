@@ -3,3 +3,6 @@ server:
 spring:
   application:
     name: customer
+provider:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.bilibili.consumer.configuration.NacosWeightedRule #com.netflix.loadbalancer.RandomRule
