@@ -5,11 +5,11 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
-    #sentinel:
-      #transport:
-        #dashboard: 127.0.0.1:8080
-      #filter:
-        #enabled: false
+    sentinel:
+      transport:
+        dashboard: 127.0.0.1:8080
+      filter:
+        enabled: false
 management:
   endpoints:
     web:

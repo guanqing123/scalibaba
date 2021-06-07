@@ -16,7 +16,7 @@ public class SentinelConfiguration {
 
     @PostConstruct
     public void init(){
-        WebCallbackManager.setRequestOriginParser(new RequestOriginParserDefinition());
+//        WebCallbackManager.setRequestOriginParser(new RequestOriginParserDefinition());
         WebCallbackManager.setUrlBlockHandler(new ExceptionHandler());
     }
 }
